@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumi Sky - фотостудия. Фотоссесии в Екатеринбурге</title>
+    <link rel="shortcut icon" href="img/index/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <script src="https://kit.fontawesome.com/06d986b207.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!--header  -->
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html" class="logo-link">
+                <img src="img/index/logo.svg" alt="logo" class="logo-image">
+            </a>
+        </div>
+        <div class="header__address">
+            <span class="address-text">Екатеринбург, пр. Ленина 49</span>
+        </div>
+        <div class="header__call">
+          <span class="call-text">Связаться</span>
+          <a href="tel:89024097006" class="call-icon">
+            <img src="img/index/gold-phone.svg" alt="tel" class="phone-icon">
+        </a>
+        </div>
+    </header>
+
+    <!-- menu -->
+
+    <nav class="nav">
+        <ul class="menu">
+            <li class="menu__item"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu__item"><a href="index.html#services" class="menu-link">Услуги</a></li>
+            <li class="menu__item"><a href="hall.html" class="menu-link" >Залы</a></li>
+            <li class="menu__item"><a href="portfolio.html" class="menu-link">Портфолио</a></li>
+            <li class="menu__item"><a href="contacts.html" class="menu-link">Контакты</a></li>
+            <li class="menu__item"><a href="booking.html" class="menu-link btn">Бронировать</a></li>
+        </ul>
+     </nav>
+<!-- основной контент -->
+<main>
+    <section class="booking">
+        <h2 class="section-title">Запись на фотосессию</h2>
+        <div class="booking__scheme">
+            <a href="javascript:;" data-fancybox class="btn" data-src="#hidden-content">
+                Посмотреть схему залов
+              </a>
+              <div id="hidden-content" style="display: none;">
+                <img src="img/index/RD.jpg" alt="схема" class="scheme">
+
+              </div>
+        </div>
+
+        <div class="booking__forma">
+            <div class="form__contacts">
+                <h3 class="form-title">Наши контакты:</h3>
+                <ul>
+                    
+                    <li>Екатеринбург, пр. Ленина, 49</li>
+                    <li>Залы: 8-902-409-70-06</li>
+                    <li>Фотосессии: 8-922-157-32-52</li>
+                </ul>
+                <img src="img/halls/milan3.jpg" alt="" class="form-img">
+            </div>
+            <form action="#" class="booking__form">
+                <p>
+                    <label for="name">Ваше имя*</label>
+                    <input type="text" id="name" placeholder="Иван" required>
+                </p>
+
+                <p>
+                    <label for="last-name">Ваша фамилия*</label>
+                    <input type="text" id="last-name" placeholder="Иванов" required>
+                </p>
+                <p>
+                    <label for="email">Email адрес*</label>
+                    <input type="email" id="email" placeholder="address@gmail.com" required>
+                </p>
+                <p>
+                    <label for="tel">Ваш телефон*</label>
+                    <input type="tel" id="tel" placeholder="x-xxx-xxx-xxx" required>
+                </p>
+                <p>
+                    <label for="type-photo">Тип фотосессии</label>
+                    <select name="type-photo" id="type-photo">
+                        <option value="family-photo">Семейная</option>
+                        <option value="person-photo">Персональная</option>
+                        <option value="baby-photo">Беременность</option>
+                        <option value="friends-photo">друзья</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="hall">Зал</label>
+                    <select name="hall" id="hall">
+                        <option value="milan-photo">Милан</option>
+                        <option value="fusion-photo">Фьюжн</option>
+                        <option value="loft-photo">Лофт</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="services">Дополнительные услуги</label>
+                </p>
+                <div class="full checkbox">
+                    <label for="">
+                        <input type="checkbox" class="check-box">
+                        <span class="square"></span>
+                        кейтеринг
+                    </label>
+                    <label for="">
+                        <input type="checkbox" class="check-box">
+                        <span class="square"></span>
+                        декор
+                    </label>
+                    <label for="">
+                        <input type="checkbox" class="check-box">
+                        <span class="square"></span>
+                        визажист
+                    </label>
+                </div>
+                <p class="full">
+                    <label>Комментарии</label>
+                    <textarea cols="30" rows="5"></textarea>
+                </p>
+                <div class="order">
+                    <button class="btn" type="submit">Забронировать</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+</main>
+
+<!-- footer -->
+<footer class="footer">
+    <div class="footer__logo">
+        <img src="img/index/f-logo.png" alt="logo">
+    </div>
+    <div class="footer__link">
+        <ul class="footer-menu">
+            <li class="footer-menu-item">
+                <a href="" class="footer-link">Портфолио</a>
+            </li>
+            <li class="footer-menu-item">
+                <a href="" class="footer-link">Наши залы</a>
+            </li>
+            <li class="footer-menu-item">
+                <a href="" class="footer-link">Бронирование</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer__social">
+        <p>Мы в соцсетях:</p>
+        <div class="social__icon">
+            <a href="#" class="social__icon-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social__icon-link"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social__icon-link"> <i class="fa-brands fa-vk"></i></a>
+            <a href="#" class="social__icon-link"><i class="fa-brands fa-twitter"></i></a>  
+        </div>
+    </div>
+    <div class="footer__contact">
+        <ul class="contact__list">
+            <li class="contact__list-item"><i class="fa-solid fa-location-pin"></i>Екатеринбург, пр. Ленина, 49</li>
+            <li class="contact__list-item"><i class="fa-solid fa-clock"></i>9:00 - 24:00 ежедневно</li>
+            <li class="contact__list-item"><i class="fa-solid fa-phone-flip"></i>Залы: 8-902-409-70-06</li>
+            <li class="contact__list-item"><i class="fa-solid fa-mobile-screen-button"></i>Фотосессии: 8-922-157-32-52</li>
+        </ul>
+    </div>
+    <button title="Вверх" id="buttonUp" onclick="topFunction()">
+        <img src="img/index/up.png" alt="up">
+    </button>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
