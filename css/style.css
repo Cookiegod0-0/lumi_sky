@@ -1026,65 +1026,200 @@ details[open] .rent-item-title::before{
      } 
 }
 
-/* ***************контакты************* */
-
-.contacts-photo{
-     
-}
 .contacts{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 40px;
-}
-
-.contacts .section-title{
-grid-column: 1 / span 2;
-}
-
-.contacts-block{
-background-color: #fff;
-padding: 30px;
-margin-bottom: 50px;
-}
-
-.block-title{
-font-size: 22px;
-font-weight: 500;
-margin-top: 0;
-}
-
-.contacts-block i{
-color: var(--yellow);
-margin-right: 10px;
-}
-
-.contacts__inner {
      display: grid;
      grid-template-columns: repeat(2, 1fr);
-     gap: 20px;
+     gap: 40px;
+     }
+     
+     .contacts .section-title{
+     grid-column: 1 / span 2;
+     }
+     
+     .contacts-block{
      background-color: #fff;
-     padding: 40px;
-     margin: 0 20px;
-}
-
-.contacts-item {
-     min-height: 60vh;
-     min-width: 65vh;
-     background-size: cover;
-     background-position: center;
-}
-
-.contacts__inner .block-title{
-grid-column: 1/span 2;
-}
-
-@media(max-width:1200){
+     padding: 30px;
+     margin-bottom: 50px;
+     }
+     
+     .block-title{
+     font-size: 22px;
+     font-weight: 500;
+     margin-top: 0;
+     }
+     
+     .contacts-block i{
+     color: var(--yellow);
+     margin-right: 10px;
+     }
+     
      .contacts__inner {
           display: grid;
-          grid-template-columns: repeat(1, 1fr);
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px;
+          background-color: #fff;
+          padding: 40px;
+          margin: 0 20px;
      }
-}
-
+     
+     .contacts-item {
+          min-height: 60vh;
+          min-width: 65vh;
+          background-size: cover;
+          background-position: center;
+     }
+     
+     .contacts__inner .block-title{
+     grid-column: 1/span 2;
+     }
+     
+     .map-title{
+     margin: 0 250px 50px 250px;
+     font-size: 26px;
+     }
+     @media(max-width:1200px){
+          .section-title{
+          font-size: 45px;
+          }
+     
+     
+          .contacts .block-title{
+          font-size: 30px;
+          text-align: center;
+          }
+     
+          .contacts-photos{
+               padding:3% 5%;
+          }
+     
+          .contacts__inner{
+          grid-template-columns: repeat(2, 1fr);
+          gap: 30px;
+          }
+     
+          .contacts-item {
+          min-height: 38vh;
+          min-width: 40vh;
+     }
+     
+     .contacts_item{
+          font-size: 25px;
+          }
+     
+     .contacts__inner .block-title{
+     font-size: 50px;
+     text-align: center;
+     }
+     
+     .contact-list2 .contacts_item{
+     margin-bottom: 50px;
+     }
+     }
+     
+     @media(max-width:1080px){
+          .contacts__inner{
+          gap: 20px;
+          }
+     
+          .contacts-item {
+               min-height: 33vh;
+               min-width: 35vh;
+          } 
+     
+          .contact-list2 .contacts_item{
+               margin-bottom: 0;
+               }
+     
+          .contacts_item{
+               font-size: 20px;
+          }
+     
+          .contacts .block-title{
+               font-size: 25px;
+               text-align: center;
+               }
+     }
+     
+     @media(max-width:900px){
+          .contacts-item {
+               min-height: 28vh;
+               min-width: 30vh;
+          }
+          
+          .contacts__inner .block-title{
+               font-size: 40px;
+               }
+     
+          .contacts_item{
+               font-size: 20px;
+          }
+     }
+     
+     @media(max-width:830px){
+          .contacts{
+               gap: 20px;
+          }
+     
+          .contacts-item{
+          margin: 10px 5px;
+          }
+     
+          .item1{
+               grid-column: 1/span 2;
+               min-height: 43vh;
+          }
+     
+          .item2{
+               grid-column: 1/span 2;
+               min-height: 43vh;
+          }
+     
+          .block1{
+               grid-column: 1/span 2;
+          }
+     
+          .block2{
+               grid-column: 1/span 2;
+          }
+     
+          .contacts_item{
+          font-size: 23px;
+          }
+     
+          .contacts .block-title{
+          font-size: 30px;
+          }
+     }
+     
+     @media(min-width:480px) and (max-width:570px) {
+          .item1{
+               min-height: 25vh;
+          }
+     
+          .item2{
+               min-height: 25vh;
+          }
+     }
+     
+     @media(min-width:571px) and (max-width:638px){
+          .item1{
+               min-height: 32vh;
+          }
+     
+          .item2{
+               min-height: 32vh;
+          }
+     }
+     
+     @media(min-width:639px) and (max-width:700px){
+          .item1{
+               min-height: 38vh;
+          }
+     
+          .item2{
+               min-height: 38vh;
+          }
+     }
 
 
 /* ********************Портфолио********************/
