@@ -695,10 +695,10 @@ header, footer {
      }
 }
 
-@media (max-width: 480px){
-    .form{
-    height: 60vh;
-    }
+@media (max-width: 480px)  {
+     .form {
+          height: 55vh;
+     }
 }
 
 /* footer */
