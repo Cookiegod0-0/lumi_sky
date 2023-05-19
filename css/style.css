@@ -1249,8 +1249,8 @@ details[open] .rent-item-title::before{
           padding: 0%;
           }
           .contacts-item {
-               min-height: 22vh;
-               min-width: 22vh;
+               min-height: 25vh;
+               min-width: 25vh;
                margin: 0, auto;
           }
      }
