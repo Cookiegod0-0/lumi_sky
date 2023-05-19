@@ -697,7 +697,7 @@ header, footer {
 
 @media (max-width: 480px)  {
      .form {
-          height: 55vh;
+          height: 80vh;
      }
 }
 
