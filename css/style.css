@@ -1240,7 +1240,7 @@ details[open] .rent-item-title::before{
 
       @media (min-width: 346px) and (max-width: 397px){
           .contacts{
-               padding: 5%;
+               padding: 3%;
            }
           .contacts-photos{
           padding: 0%;
