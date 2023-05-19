@@ -1153,6 +1153,13 @@ details[open] .rent-item-title::before{
           .contacts_item{
                font-size: 20px;
           }
+
+          .map-title{
+               font-size: 32px;
+               margin: 10px;
+               margin-bottom: 30px;
+          }
+
      }
      
      @media(max-width:830px){
@@ -1189,6 +1196,12 @@ details[open] .rent-item-title::before{
           .contacts .block-title{
           font-size: 30px;
           }
+
+          .map-title{
+               font-size: 30px;
+               margin: 10px;
+               margin-bottom: 30px;
+          }
      }
      
      @media(min-width:480px) and (max-width:570px) {
@@ -1198,6 +1211,10 @@ details[open] .rent-item-title::before{
      
           .item2{
                min-height: 25vh;
+          }
+
+          .map-title {
+          font-size: 30px;
           }
      }
      
@@ -1218,6 +1235,55 @@ details[open] .rent-item-title::before{
      
           .item2{
                min-height: 38vh;
+          }
+     }
+
+     @media (min-width: 346px) and (max-width: 397px){
+          .contacts-photos{
+          padding: 0.5%;
+          }
+          .contacts-item {
+               min-height: 17vh;
+               min-width: 22vh;
+               margin: 0, auto;
+          }
+          /* .item1{
+               min-height: 20vh;
+          }
+     
+          .item2{
+               min-height: 20vh;
+          } */
+     }
+
+     @media (min-width: 398px) and (max-width: 479px) {
+          .contacts .section-title{
+          margin-top: 20px;
+          }
+          .contacts{
+               padding: 2%;
+               }
+     
+               .contacts-photos{
+               padding: 0%;
+               }
+          .contacts-item {
+               min-height: 22vh;
+               min-width: 25vh;
+          }
+     }
+
+     @media (min-width: 320px) and (max-width: 345px){
+          .contacts{
+          padding: 2%;
+          }
+
+          .contacts-photos{
+          padding: 0%;
+          }
+          .contacts-item {
+               min-height: 15vh;
+               min-width: 17vh;
           }
      }
 
