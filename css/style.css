@@ -1238,22 +1238,18 @@ details[open] .rent-item-title::before{
           }
      }
 
-     @media (min-width: 346px) and (max-width: 397px){
+      @media (min-width: 346px) and (max-width: 397px){
+          .contacts{
+               padding: 5%;
+           }
           .contacts-photos{
-          padding: 0.5%;
+          padding: 0%;
           }
           .contacts-item {
-               min-height: 17vh;
+               min-height: 22vh;
                min-width: 22vh;
                margin: 0, auto;
           }
-          /* .item1{
-               min-height: 20vh;
-          }
-     
-          .item2{
-               min-height: 20vh;
-          } */
      }
 
      @media (min-width: 398px) and (max-width: 479px) {
