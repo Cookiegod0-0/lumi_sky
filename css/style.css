@@ -1714,3 +1714,49 @@ input[name="slider"] {
           margin-left: 20px;
      }
 }
+
+@media(min-width:320px) and (max-width:479px){
+     .booking{
+          padding: 1% 2%;
+     }
+
+     .booking .section-title{
+     margin-top: 20px;
+     }
+
+     .form__contacts{
+     padding: 5%;
+     }
+     
+     .form__contacts{
+          display: flex;
+          padding: 1em;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .booking__form{
+          display: flex;
+          padding: 1em;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+     .checkbox{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin-left: 5%;
+     }
+     
+     .checkbox label{
+          margin-left: 20px;
+     }
+
+     .order{
+          grid-column: 1/3;
+          justify-content: center;
+     }
+}
