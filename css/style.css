@@ -224,7 +224,7 @@ header, footer {
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
-     height: 80vh;
+     height: 130vh;
      text-align: center;
 }
 
@@ -631,7 +631,7 @@ header, footer {
      background-image: url(../img/index/request.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     height: 50vh;
+     height: 70vh;
      background-position: center;
      padding: 3% 5%;
      background-attachment: fixed;
