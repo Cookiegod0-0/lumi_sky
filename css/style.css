@@ -1246,6 +1246,9 @@ details[open] .rent-item-title::before{
      }
 
       @media (min-width: 346px) and (max-width: 397px){
+          .contacts_item{
+               font-size:16px;
+              }
           .contacts .section-title{
                margin-top: 20px;
                }
